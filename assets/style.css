@@ -926,3 +926,74 @@ blockquote.q{font-family:var(--f-head);font-weight:500;border-left:4px solid var
 .hero-tabs .pause{border-color:#fff}
 .srch input::-webkit-search-cancel-button{display:none}
 .srch{background:#fff}
+
+/* ===== kiểu chữ đo trực tiếp từ pcl.com (1440px) ===== */
+body{font-size:16px;line-height:24px;color:#000}
+p,.lead,.who .txt p,.wwd .pane p,.pane p,.card-s p,.own p,.spot .q,.imt p,.pf p,.subs p{font-size:16px;line-height:24px;color:inherit;font-weight:400}
+.nav>li>a{font-size:14px;font-weight:600;line-height:21.98px}
+.hdr .region{font-size:16px;font-weight:500}
+.eyebrow{font-size:14px !important;font-weight:600 !important;line-height:21.98px;letter-spacing:1.5px !important;color:#36383D !important}
+.dark .eyebrow,.vbg .eyebrow,.phero .eyebrow,.hero .eyebrow,.wwk .eyebrow{color:#fff !important}
+.h2,.pf h2,.wwb .h2,.vals h3,.statement{font-family:var(--f-head);font-size:48px;line-height:56.16px;font-weight:600;color:inherit}
+.sec:not(.dark):not(.vbg) .h2{color:#000}
+.hero h1,.phero h1{font-family:var(--font);font-size:72px;line-height:1.1;font-weight:700;max-width:15ch}
+.hero-tabs button{font-family:var(--f-head);font-size:20px;line-height:28px;font-weight:600}
+.arr,.link,.btn,.pc .more{font-family:var(--font);font-size:14px;line-height:21.98px;font-weight:600;letter-spacing:1.5px}
+.kpis b{font-family:var(--f-head);font-size:32px;line-height:38.08px;font-weight:700}
+.kpis span{font-family:var(--font);font-size:20px;line-height:28px;font-weight:600;color:#000;margin-top:0}
+.big b{font-size:104px;line-height:112.32px;font-weight:600}
+.big>span{font-size:20px;line-height:28px;font-weight:400}
+.big small{font-size:14px;line-height:21.98px;font-weight:400}
+.tabs button,.chip,.subnav a{font-family:var(--f-head);font-size:20px !important;line-height:28px;font-weight:600 !important}
+.pane h3,.imt h3,.spot h3{font-family:var(--font);font-weight:700;color:#000}
+.wwd .pane h3{font-size:48px;line-height:56.16px}
+.imt h3,.spot h3{font-size:40px;line-height:48px}
+.card-s .k{font-size:14px;line-height:21.98px;font-weight:600;letter-spacing:1.5px;color:#36383D}
+.card-s h3{font-family:var(--f-head);font-size:48px;line-height:56.16px;font-weight:600;color:#000}
+.card-s dl{font-size:12px;line-height:20.04px;letter-spacing:1px}
+.card-s dt{font-weight:400}.card-s dd{font-weight:700}
+.career-line{font-family:var(--f-head);font-size:32px;line-height:38.08px;font-weight:700}
+.cbtns .btn{font-size:14px}
+.spot .role{font-size:16px;line-height:24px;font-weight:500}
+.news-h h2{font-family:var(--font);font-size:24px;line-height:31.92px;font-weight:700}
+.ncard small{font-size:12px;line-height:20.04px;font-weight:600;letter-spacing:1px;color:#36383D}
+.ncard h3{font-family:var(--font);font-size:20px;line-height:28px;font-weight:600;color:#000}
+.ncard .d{font-size:12px;line-height:20.04px}
+.pf h2{font-size:64px;line-height:71.68px}
+.subs h3{font-size:24px;line-height:31.92px;font-weight:700}
+.ft-top li a{font-size:16px;line-height:25.12px;font-weight:500}
+.ftr .copy,.ft-info{font-size:12px;line-height:20.04px}
+.d-intro h3{font-family:var(--f-head);font-size:32px;line-height:38.08px;font-weight:700}
+.d-links b{font-size:16px;font-weight:600}
+.card h3,.pc h3{font-family:var(--font);font-size:20px;line-height:28px;font-weight:600}
+.pc h3{font-size:24px;line-height:31.92px;font-weight:700}
+.card small,.pc small{font-size:12px;line-height:20.04px;letter-spacing:1px;font-weight:600}
+.h3,.chap h2,.step h3,.icon-row h3{font-family:var(--f-head);font-size:32px;line-height:38.08px;font-weight:700}
+.stat b{font-family:var(--f-head);font-size:64px;line-height:1.08;font-weight:600}
+.stat>span{font-size:16px;line-height:24px;font-weight:600}
+.facts dd,.tbl td,.acc details p,.article{font-size:16px;line-height:24px}
+.acc summary{font-family:var(--font);font-size:20px;line-height:28px;font-weight:600}
+@media (max-width:1100px){.hero h1,.phero h1{font-size:56px}.pf h2{font-size:52px;line-height:1.12}}
+@media (max-width:760px){
+  .hero h1,.phero h1{font-size:40px;line-height:44px}
+  .h2,.wwd .pane h3,.card-s h3,.wwb .h2{font-size:36px;line-height:42px}
+  .pf h2{font-size:40px;line-height:44px}
+  .imt h3,.spot h3{font-size:32px;line-height:38px}
+  .career-line{font-size:26px;line-height:32px}
+  .big b{font-size:80px;line-height:86px}
+  .stat b{font-size:48px}
+}
+
+/* hành trình (khối nền tối trang chủ) */
+.wwk .lg{margin-top:44px}
+.wwk .lg .pane{grid-template-columns:1.35fr 1fr;gap:clamp(30px,5vw,70px);align-items:center}
+.wwk .lg .pane img{width:100%;aspect-ratio:4/3;object-fit:cover}
+.wwk .lg .big b{margin-bottom:6px}
+.wwk .lg .big .pl{font-size:14px;line-height:21.98px;font-weight:600;letter-spacing:1.5px;text-transform:uppercase;color:var(--yellow);margin:0 0 14px}
+.wwk .lg .big h3{font-family:var(--f-head);font-size:32px;line-height:38.08px;font-weight:700;margin-bottom:14px}
+.wwk .lg .big p{font-size:16px;line-height:24px;margin-bottom:30px}
+.wwk .tabs{gap:8px 28px}
+@media (max-width:900px){.wwk .lg .pane{grid-template-columns:1fr}}
+.wwk .h2{color:#fff !important}
+.wwk .lg{display:block}
+.hero h1,.phero h1{max-width:760px}

@@ -15,9 +15,9 @@
 <!-- 1. HERO: video toàn màn hình + tab chuyển câu chuyện -->
 <section class="hero">
   <div class="hero-bg">
-    <video class="on" autoplay muted loop playsinline poster="media/hero.jpg"><source src="media/hero.mp4" type="video/mp4"></video>
-    <video muted loop playsinline preload="none" poster="media/site.jpg"><source src="media/site.mp4" type="video/mp4"></video>
-    <video muted loop playsinline preload="none" poster="media/people.jpg"><source src="media/people.mp4" type="video/mp4"></video>
+    <video class="on" autoplay muted loop playsinline poster="media/hero1080.jpg"><source src="media/hero1080.mp4" type="video/mp4"></video>
+    <video muted loop playsinline preload="none" poster="media/pccc1080.jpg"><source src="media/pccc1080.mp4" type="video/mp4"></video>
+    <video muted loop playsinline preload="none" poster="media/city1080.jpg"><source src="media/city1080.mp4" type="video/mp4"></video>
   </div>
   <div class="wrap hero-in">
     <div class="hs on"><span class="eyebrow">Nhà ở xã hội</span><h1>Về đích đúng hẹn với hàng trăm gia đình</h1><a class="arr" href="tin-tuc-chi-tiet.html?id=ban-giao-cum-toa-d-e-du-an-noxh-thong-nhat-smart-city">Đọc câu chuyện</a></div>
@@ -54,22 +54,16 @@
   </div>
 </section>
 
-<!-- 3. WHERE WE WORK -->
+
+<!-- 3. HÀNH TRÌNH (thay cho khối bản đồ – lấy từ dòng thời gian di sản bản trước) -->
 <section class="sec wwk">
   <div class="wrap">
     <div class="head">
-      <div class="rv"><span class="eyebrow">Nơi chúng tôi làm việc</span><h2 class="h2" style="margin:0">Cùng Bắc Ninh kiến tạo những khu đô thị đáng sống.</h2></div>
-      <p class="rv">Dù bạn muốn xây ở đâu, xây gì, chúng tôi luôn huy động đúng nguồn lực để mang lại giá trị và hiện thực hoá mục tiêu dự án. Phần lớn công trường nằm trong bán kính 25 km quanh trụ sở – ban chỉ huy điều phối nhân lực, máy móc giữa các công trường chỉ trong 30 phút.</p>
+      <div class="rv"><span class="eyebrow">Hành trình của chúng tôi</span><h2 class="h2" style="margin:0">Tạo nên di sản bền vững cho Bắc Ninh.</h2></div>
+      <p class="rv">Khởi đầu từ một phòng ban nhỏ năm 2013, chúng tôi lớn lên cùng nhu cầu nhà ở ngày càng lớn của Bắc Ninh. Lịch sử của chúng tôi là lịch sử của những lần làm trước, làm khó và làm đến cùng – và chúng tôi chỉ mới bắt đầu.</p>
     </div>
-    <div class="tabs" id="mapTabs"><button class="on">Bắc Ninh</button><button>Việt Nam</button></div>
-    <div class="body">
-      <div class="map rv"><img class="mp on map-svg" src="img/map/map-bn.svg" alt="Bản đồ các dự án của Xây lắp Cát Tường tại Bắc Ninh"><img class="mp map-svg" src="img/map/map-vn.svg" alt="Bản đồ Việt Nam – trụ sở Xây lắp Cát Tường tại Bắc Ninh, có quần đảo Hoàng Sa và Trường Sa"></div>
-      <div class="big rv">
-        <b><span data-count="10">0</span>+</b><span>Dự án đã & đang thi công</span>
-        <b>24/7</b><span>Ứng cứu sự cố hệ thống PCCC</span>
-        <a class="btn" href="du-an.html">Xem các dự án</a><small>Xem những công trình phía sau các con số</small>
-      </div>
-    </div>
+    <div class="tabs" id="lgTabs"></div>
+    <div class="body lg" id="lgBody"></div>
   </div>
 </section>
 
@@ -112,7 +106,7 @@
   <div class="wrap">
     <span class="eyebrow rv">Tuyển dụng</span>
     <h2 class="h2 rv">Kiến tạo tương lai cùng Xây lắp Cát Tường</h2>
-    <button class="vid rv" id="playTvc" aria-label="Xem video Cát Tường – Khơi nguồn thịnh vượng"><img src="media/tvc.jpg" alt="" loading="lazy"><i></i></button>
+    <button class="vid rv" id="playTvc" aria-label="Xem video Cát Tường – Khơi nguồn thịnh vượng"><img src="media/tvc1080.jpg" alt="" loading="lazy"><i></i></button>
     <p class="career-line rv">Ở Cát Tường, đó không chỉ là một công việc – đó là sự nghiệp của bạn. Khám phá cơ hội cùng chúng tôi.</p>
     <div class="cbtns rv"><a class="btn btn-p" href="tuyen-dung.html#vi-tri">Kỹ sư & quản lý</a><a class="btn btn-p" href="tuyen-dung.html#vi-tri">Thợ lành nghề</a><a class="btn btn-p" href="tuyen-dung.html#vi-tri">Sinh viên thực tập</a></div>
   </div>
@@ -156,7 +150,7 @@
 </section>
 </main>
 
-<div class="vmodal" id="vm"><button aria-label="Đóng video">×</button><video controls preload="none" poster="media/tvc.jpg"><source src="media/tvc.mp4" type="video/mp4"></video></div>
+<div class="vmodal" id="vm"><button aria-label="Đóng video">×</button><video controls preload="none" poster="media/tvc1080.jpg"><source src="media/tvc1080.mp4" type="video/mp4"></video></div>
 
 <script>document.write('<scr'+'ipt src="assets/data.js?v='+Math.floor(Date.now()/60000)+'"></scr'+'ipt>')</script>
 <script src="assets/app.js"></script>
@@ -183,8 +177,13 @@ requestAnimationFrame(()=>go(0));
 
 // tab chung: bản đồ & "chúng tôi làm gì"
 function tabs(btns,panes){btns.forEach((b,j)=>b.onclick=()=>{btns.forEach((x,k)=>x.classList.toggle('on',k===j));panes.forEach((x,k)=>x.classList.toggle('on',k===j))})}
-tabs($$('#mapTabs button'),$$('.map .mp'));
 tabs($$('[data-pane="wwd"] button'),$$('#wwd .pane'));
+// hành trình: tab năm
+const LG=CT.legacy, lt=$('#lgTabs'), lb=$('#lgBody');
+lt.innerHTML=LG.map((l,j)=>`<button class="${j?'':'on'}">${l.year}</button>`).join('');
+lb.innerHTML=LG.map((l,j)=>`<div class="pane ${j?'':'on'}"><img src="${I(l.img)}" alt="${l.title}" loading="lazy"><div class="big"><b>${l.year}</b><span class="pl">${l.place}</span><h3>${l.title}</h3><p>${l.desc}</p><a class="btn" href="${l.link}">Đọc câu chuyện</a><small>Toàn bộ hành trình trong <a href="gioi-thieu.html#cau-chuyen" style="text-decoration:underline">Câu chuyện hình thành</a></small></div></div>`).join('');
+tabs([...lt.children],[...lb.children]);
+
 
 // trình chiếu dự án theo nhóm
 const groups=[['Nhà ở xã hội',p=>/xã hội/i.test(p.type)],['Đô thị & thương mại',p=>/đô thị|thương mại/i.test(p.type)],['Khách sạn & dịch vụ',p=>/khách sạn|y tế/i.test(p.type)]];
