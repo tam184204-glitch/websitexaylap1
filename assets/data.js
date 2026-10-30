@@ -23,8 +23,9 @@ window.CT = {
       "scope": "Thi công kết cấu, hoàn thiện, cơ điện & hệ thống PCCC",
       "scale": "6 tòa cao tầng · ~1.800 căn hộ · 2 tầng hầm",
       "time": "2024 – 2027",
-      "cover": "tns-4",
+      "cover": "tns-dem",
       "images": [
+        "tns-dem",
         "tns-5",
         "tns-1",
         "tns-2",
