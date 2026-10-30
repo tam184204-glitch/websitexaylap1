@@ -727,7 +727,7 @@ h1,h2,h3,.h2,.h3{font-family:var(--f-head);font-weight:600;letter-spacing:0}
 .wwd .tabs{margin:40px 0 46px}
 .pane{display:none}.pane.on{display:grid;animation:fade .5s}
 .wwd .pane{grid-template-columns:1fr 1fr;gap:clamp(30px,5vw,70px);align-items:center}
-.wwd .pane img{width:100%;aspect-ratio:4/3.4;object-fit:cover}
+.wwd .pane img,.wwd .pane video{width:100%;aspect-ratio:4/3.4;object-fit:cover}
 .pane h3{font-family:var(--f-head);font-weight:600;font-size:clamp(32px,3.2vw,46px);line-height:1.12;margin-bottom:22px}
 .pane p{font-size:15px;line-height:1.75;margin-bottom:30px;max-width:34em}
 .wwb .h2{max-width:22ch}
