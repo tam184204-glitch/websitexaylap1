@@ -7,7 +7,7 @@
 <link rel="icon" href="img/logo.png">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,800&family=Barlow+Condensed:wght@500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/style.css">
+<link rel="stylesheet" href="assets/style.css?v=navy1">
 </head>
 <body data-page="gioi-thieu">
 <main id="main">
@@ -193,7 +193,7 @@
 </section>
 </main>
 <script>document.write('<scr'+'ipt src="assets/data.js?v='+Math.floor(Date.now()/60000)+'"></scr'+'ipt>')</script>
-<script src="assets/app.js"></script>
+<script src="assets/app.js?v=navy1"></script>
 <script>
 const L=[['Nguyễn Hữu Hải','Giám đốc','Kỹ sư xây dựng · Chỉ huy thi công PCCC'],['Tăng Thị Phương','Chánh văn phòng','Kiểm toán · Kế toán trưởng'],['Lê Văn Hoạt','TP Kế hoạch – Kỹ thuật','Kỹ sư xây dựng · Quản lý dự án'],['Lê Thái Hoàng','TP Bảo trì','Kỹ sư cơ khí · Chỉ huy thi công PCCC'],['Nguyễn Đình Dương','TP Cung ứng vật tư, thiết bị','Kỹ sư xây dựng · Giám sát XD'],['Lê Văn Hiển','Chỉ huy trưởng','Kỹ sư xây dựng · Thiết kế kết cấu'],['Nguyễn Tuấn Anh','Cán bộ kỹ thuật','Kỹ sư xây dựng · Giám sát XD'],['Nguyễn Văn Huyên','Cán bộ ANVS – ATLĐ','Huấn luyện an toàn lao động']];
 document.getElementById('leaders').innerHTML=L.map(([n,r,d])=>`<div class="rv" style="background:#fff;padding:26px;border-top:4px solid var(--blue)"><div style="width:64px;height:64px;border-radius:50%;background:var(--navy);color:var(--accent);display:grid;place-items:center;font-weight:800;font-size:22px">${n.split(' ').slice(-2).map(w=>w[0]).join('')}</div><h3 style="font-size:19px;margin:16px 0 4px">${n}</h3><div style="color:var(--blue);font-weight:600;font-size:15px">${r}</div><p style="color:var(--muted);font-size:14px;margin-top:8px">${d}</p></div>`).join('');
