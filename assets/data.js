@@ -569,7 +569,7 @@ window.CT = {
       "place": "Bắc Ninh",
       "title": "Bước vào lĩnh vực PCCC",
       "desc": "Thi công, lắp đặt, bảo trì hệ thống phòng cháy chữa cháy và cung cấp thiết bị PCCC.",
-      "img": "pccc-ky-su2",
+      "img": "pccc-1",
       "link": "kinh-nghiem.html#linh-vuc"
     },
     {
