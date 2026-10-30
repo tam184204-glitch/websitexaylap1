@@ -561,7 +561,7 @@ window.CT = {
       "place": "Kinh Bắc, Bắc Ninh",
       "title": "Cát Tường New",
       "desc": "Công trình đầu tay sau khi thành lập Công ty TNHH Xây lắp Cát Tường – nay là nơi đặt trụ sở công ty.",
-      "img": "new-int",
+      "img": "new-pc",
       "link": "du-an-chi-tiet.html?id=cat-tuong-new"
     },
     {
@@ -569,7 +569,7 @@ window.CT = {
       "place": "Bắc Ninh",
       "title": "Bước vào lĩnh vực PCCC",
       "desc": "Thi công, lắp đặt, bảo trì hệ thống phòng cháy chữa cháy và cung cấp thiết bị PCCC.",
-      "img": "korea",
+      "img": "pccc-ky-su2",
       "link": "kinh-nghiem.html#linh-vuc"
     },
     {
@@ -585,7 +585,7 @@ window.CT = {
       "place": "Yên Phong, Bắc Ninh",
       "title": "Thủ tướng thăm công trường",
       "desc": "Ngày 30/7/2023, Thủ tướng Phạm Minh Chính thăm và động viên công nhân Cát Tường.",
-      "img": "sc-cn1",
+      "img": "ttg-2",
       "link": "gioi-thieu.html#cau-chuyen"
     },
     {
