@@ -245,8 +245,10 @@ window.CT = {
       "scope": "Thi công xây dựng; thi công, sửa chữa hệ thống PCCC",
       "scale": "Tòa 20 tầng + khối đế thương mại 5 tầng",
       "time": "2017 – 2020",
-      "cover": "new-pc",
+      "cover": "new-real",
       "images": [
+        "new-real",
+        "new-real-doc",
         "new-pc",
         "new-int",
         "pccc-tu",

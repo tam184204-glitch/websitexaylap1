@@ -7,7 +7,7 @@
 <link rel="icon" href="img/logo.png">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,800&family=Barlow+Condensed:wght@500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/style.css?v=navy5">
+<link rel="stylesheet" href="assets/style.css?v=navy6">
 </head>
 <body data-page="home">
 <main id="main">
@@ -153,7 +153,7 @@
 <div class="vmodal" id="vm"><button aria-label="Đóng video">×</button><video controls preload="none" poster="media/tvc1080.jpg"><source src="media/tvc1080.mp4" type="video/mp4"></video></div>
 
 <script>document.write('<scr'+'ipt src="assets/data.js?v='+Math.floor(Date.now()/60000)+'"></scr'+'ipt>')</script>
-<script src="assets/app.js?v=navy5"></script>
+<script src="assets/app.js?v=navy6"></script>
 <script>
 const {projects,news}=CT, I=ctImg;
 const $=s=>document.querySelector(s), $$=s=>[...document.querySelectorAll(s)];
@@ -186,13 +186,13 @@ tabs([...lt.children],[...lb.children]);
 
 
 // trình chiếu dự án theo nhóm
-const groups=[['Nhà ở xã hội',p=>/xã hội/i.test(p.type)],['Đô thị & thương mại',p=>/đô thị|thương mại/i.test(p.type)],['Khách sạn & dịch vụ',p=>/khách sạn|y tế/i.test(p.type)]];
+const groups=[['Nhà ở xã hội',p=>/xã hội/i.test(p.type)],['Đô thị & thương mại',p=>/đô thị|thương mại/i.test(p.type),'cat-tuong-new'],['Khách sạn & dịch vụ',p=>/khách sạn|y tế/i.test(p.type)]];
 const st=ctStatus;
 let gi=0, pi=0;
 const showTabs=$('#showTabs'), showPh=$('#showPh'), showCards=$('#showCards');
 showTabs.innerHTML=groups.map((g,j)=>`<button class="${j?'':'on'}">${g[0]}</button>`).join('');
 function renderShow(){
-  const list=projects.filter(groups[gi][1]); pi=(pi+list.length)%list.length;
+  const list=projects.filter(groups[gi][1]).sort((a,b)=>(b.id===groups[gi][2])-(a.id===groups[gi][2])); pi=(pi+list.length)%list.length;
   showPh.innerHTML=list.map((p,j)=>`<img class="${j===pi?'on':''}" src="${I(p.cover)}" alt="${p.name}">`).join('');
   showCards.innerHTML=list.map((p,j)=>`<div class="card-s ${j===pi?'on':''}"><span class="k">Dự án tiêu biểu · ${j+1}/${list.length}</span><h3>${p.name}</h3><p>${p.summary}</p><dl><dt>Địa điểm</dt><dd>${p.location}</dd><dt>Loại hình</dt><dd>${p.type}</dd><dt>Trạng thái</dt><dd>${st(p.status)[1]}</dd></dl><a class="btn" href="du-an-chi-tiet.html?id=${p.id}">Xem chi tiết</a></div>`).join('');
 }
