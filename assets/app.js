@@ -123,7 +123,7 @@
   ctLabelTables();
 
   // ---------- chân trang: "Sẵn sàng hợp tác?" + đăng ký bản tin + footer ----------
-  const tri = (cls) => `<svg class="${cls}" viewBox="0 0 400 300" aria-hidden="true"><path d="M0 300L160 0h0v300z" fill="#FFE59E"/><path d="M160 0l160 150H160z" fill="#FFD25A"/><path d="M160 150h160L160 300z" fill="#FFC425"/><path d="M320 0h80v60z" fill="#FFC425"/><path d="M320 0l80 60v60z" fill="#00502F"/></svg>`;
+  const tri = (cls) => `<svg class="${cls}" viewBox="0 0 400 300" aria-hidden="true"><path d="M0 300L160 0h0v300z" fill="#FDE3A0"/><path d="M160 0l160 150H160z" fill="#FBCB4A"/><path d="M160 150h160L160 300z" fill="#F8B810"/><path d="M320 0h80v60z" fill="#F8B810"/><path d="M320 0l80 60v60z" fill="#0A4A8C"/></svg>`;
   window.ctTri = tri;
   const pf = document.createElement('section');
   pf.className = 'pf';

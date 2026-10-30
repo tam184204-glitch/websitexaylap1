@@ -23,7 +23,7 @@ window.CT = {
       "scope": "Thi công kết cấu, hoàn thiện, cơ điện & hệ thống PCCC",
       "scale": "6 tòa cao tầng · ~1.800 căn hộ · 2 tầng hầm",
       "time": "2024 – 2027",
-      "cover": "tns-5",
+      "cover": "tns-pc",
       "images": [
         "tns-5",
         "tns-1",
@@ -531,7 +531,7 @@ window.CT = {
       "title": "Nghiệm thu hệ thống PCCC cùng Cảnh sát PCCC tỉnh Bắc Ninh",
       "tag": "PCCC",
       "date": "04/2026",
-      "img": "pccc-2",
+      "img": "pccc-6",
       "summary": "",
       "body": "<p>Tháng 4/2026, đoàn Cảnh sát PCCC & CNCH tỉnh Bắc Ninh đã kiểm tra, nghiệm thu hệ thống phòng cháy chữa cháy tại dự án do Xây lắp Cát Tường thi công.</p><p>Các hạng mục được kiểm tra gồm hệ thống chữa cháy khí, sprinkler tự động, cửa chống cháy, hệ thống báo cháy và trạm bơm.</p>"
     },
@@ -551,7 +551,7 @@ window.CT = {
       "place": "Bắc Ninh",
       "title": "Phòng Xây lắp ra đời",
       "desc": "Nhóm kỹ sư đầu tiên chỉ huy xây dựng các công trình do Cát Tường Group làm chủ đầu tư.",
-      "img": "hero-crane",
+      "img": "sc-cn3",
       "link": "gioi-thieu.html#cau-chuyen"
     },
     {
@@ -559,7 +559,7 @@ window.CT = {
       "place": "Kinh Bắc, Bắc Ninh",
       "title": "Cát Tường New",
       "desc": "Công trình đầu tay sau khi thành lập Công ty TNHH Xây lắp Cát Tường – nay là nơi đặt trụ sở công ty.",
-      "img": "new-pc",
+      "img": "new-int",
       "link": "du-an-chi-tiet.html?id=cat-tuong-new"
     },
     {
@@ -567,7 +567,7 @@ window.CT = {
       "place": "Bắc Ninh",
       "title": "Bước vào lĩnh vực PCCC",
       "desc": "Thi công, lắp đặt, bảo trì hệ thống phòng cháy chữa cháy và cung cấp thiết bị PCCC.",
-      "img": "pccc-bom2",
+      "img": "korea",
       "link": "kinh-nghiem.html#linh-vuc"
     },
     {
@@ -575,7 +575,7 @@ window.CT = {
       "place": "Yên Phong, Bắc Ninh",
       "title": "Cát Tường Smart City",
       "desc": "Khởi công khu đô thị và nhà ở xã hội quy mô lớn cạnh KCN Yên Phong.",
-      "img": "sc-01",
+      "img": "yp-pc",
       "link": "du-an-chi-tiet.html?id=cat-tuong-smart-city"
     },
     {
@@ -583,7 +583,7 @@ window.CT = {
       "place": "Yên Phong, Bắc Ninh",
       "title": "Thủ tướng thăm công trường",
       "desc": "Ngày 30/7/2023, Thủ tướng Phạm Minh Chính thăm và động viên công nhân Cát Tường.",
-      "img": "ttg-1",
+      "img": "sc-cn1",
       "link": "gioi-thieu.html#cau-chuyen"
     },
     {
@@ -591,7 +591,7 @@ window.CT = {
       "place": "Võ Cường, Bắc Ninh",
       "title": "Cát Tường Thống Nhất",
       "desc": "Hoàn thành 15.820 m² hệ thống PCCC và bàn giao căn hộ tòa N3 – N4.",
-      "img": "tn-real",
+      "img": "tn-pc1",
       "link": "du-an-chi-tiet.html?id=cat-tuong-thong-nhat"
     },
     {
@@ -599,7 +599,7 @@ window.CT = {
       "place": "Kinh Bắc, Bắc Ninh",
       "title": "Thống Nhất Smart City",
       "desc": "Bàn giao cụm tòa D – E ngày 08/08/2026, tiếp tục thi công các cụm còn lại.",
-      "img": "tns-5",
+      "img": "tns-glass",
       "link": "du-an-chi-tiet.html?id=thong-nhat-smart-city"
     }
   ],

@@ -1,12 +1,12 @@
 /* Xây lắp Cát Tường — hệ thiết kế theo pcl.com
-   Màu: xanh PCL #00502F, vàng #FFC425, than chì #36383D, nền xám #F9F9F9
+   Màu: xanh navy #0A4A8C (logo), vàng #F8B810, than chì #36383D, nền xám #F9F9F9
    Chữ: Barlow (thân) + Barlow Condensed (tiêu đề) – đúng font PCL, có đủ dấu tiếng Việt */
 :root{
-  --red:#00502F;--red-dark:#004026;--red-faded:#E3EDE8;--teal:#1E1E1E;--teal-dark:#36383D;--black:#36383D;--yellow:#FFC425;
+  --red:#0A4A8C;--red-dark:#083A70;--red-faded:#E4ECF6;--teal:#1E1E1E;--teal-dark:#36383D;--black:#36383D;--yellow:#F8B810;
   --gray-l:#E2E2E2;--gray-d:#CFCFCF;--soft:#F9F9F9;--line:#E2E2E2;--paper:#fff;
   --ink:#1E1E1E;--ink-2:#1E1E1E;--muted:#5f6166;
   --navy:var(--black);--blue:var(--red);--accent:var(--yellow);--sky:var(--red);
-  --green:#00502F;--sage:#9DBDAE;--y2:#FFE59E;--y3:#FFD25A;--char:#36383D;
+  --green:#0A4A8C;--sage:#9DB5D3;--y2:#FDE3A0;--y3:#FBCB4A;--char:#36383D;
   --max:1152px;--gut:clamp(16px,6.7vw,144px);--radius:0px;
   --font:'Barlow',ui-sans-serif,system-ui,sans-serif;
   --f-head:'Barlow Condensed','Barlow',ui-sans-serif,system-ui,sans-serif;
@@ -685,7 +685,7 @@ h1,h2,h3,.h2,.h3{font-family:var(--f-head);font-weight:600;letter-spacing:0}
 .phero p{font-size:17px;line-height:1.6;max-width:40em}
 .crumbs{font-family:var(--font);font-weight:500;font-size:13px;letter-spacing:.06em;margin-bottom:26px}
 .crumbs a:hover{color:var(--yellow)}
-.phero::after{content:"";position:absolute;z-index:2;right:0;bottom:0;width:min(190px,20vw);aspect-ratio:400/300;background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 300'%3E%3Cpath d='M160 0l160 150H160z' fill='%23FFD25A'/%3E%3Cpath d='M160 150h160L160 300z' fill='%23FFC425'/%3E%3Cpath d='M320 150h80v150z' fill='%23FFE59E'/%3E%3C/svg%3E") no-repeat right bottom/contain}
+.phero::after{content:"";position:absolute;z-index:2;right:0;bottom:0;width:min(190px,20vw);aspect-ratio:400/300;background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 300'%3E%3Cpath d='M160 0l160 150H160z' fill='%23FBCB4A'/%3E%3Cpath d='M160 150h160L160 300z' fill='%23F8B810'/%3E%3Cpath d='M320 150h80v150z' fill='%23FDE3A0'/%3E%3C/svg%3E") no-repeat right bottom/contain}
 
 /* ---------- tam giác trang trí ---------- */
 .deco{position:absolute;pointer-events:none;z-index:0}
@@ -891,7 +891,7 @@ blockquote.q{font-family:var(--f-head);font-weight:500;border-left:4px solid var
 .dark .statement em,.vbg .statement em{color:var(--yellow)}
 .bar{border-radius:0;height:5px}.bar i{border-radius:0;background:var(--green)}
 .dark .bar i{background:var(--yellow)}
-.ms li.c::after{box-shadow:0 0 0 5px rgba(0,80,47,.15)}
+.ms li.c::after{box-shadow:0 0 0 5px rgba(10,74,140,.15)}
 .legacy .yrs button{border-radius:0;font-family:var(--f-head);font-weight:600 !important;font-size:18px}
 .legacy .yrs button.on{background:var(--green)}
 .lcard,.mbox,.tl-pane img,.chap figure img,.duo img,.doc img,.gal a,.pcard,.article img{border-radius:0}
