@@ -38,7 +38,7 @@
       ['Vị trí đang tuyển', 'tuyen-dung.html#vi-tri', 'Kỹ sư, thợ lành nghề, sinh viên'],
       ['Đời sống Cát Tường', 'tuyen-dung.html#doi-song', 'Học tập, thể thao, thiện nguyện'],
       ['Ứng tuyển', 'tuyen-dung.html#ung-tuyen', 'Gửi hồ sơ trực tuyến'],
-    ], [['team-1', 'Người Cát Tường', 'tuyen-dung.html#doi-song'], ['career-1', 'Văn hoá học tập', 'tuyen-dung.html#doi-song']]],
+    ], [['team-1', 'Đội ngũ nhân viên', 'tuyen-dung.html#doi-song'], ['career-1', 'Văn hoá học tập', 'tuyen-dung.html#doi-song']]],
   ];
   const isOn = k => k === page || (k === 'gioi-thieu' && page === 'kinh-nghiem') || (k === 'du-an' && page === 'du-an-chi-tiet') || (k === 'tin-tuc' && page === 'tin-tuc-chi-tiet');
   const hdr = document.createElement('header');
