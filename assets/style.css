@@ -752,6 +752,8 @@ h1,h2,h3,.h2,.h3{font-family:var(--f-head);font-weight:600;letter-spacing:0}
 /* ---------- CAREERS ---------- */
 .vid{position:relative;display:block;width:100%;aspect-ratio:16/8.3;background:#727272;overflow:hidden;margin:44px 0 30px}
 .vid img{width:100%;height:100%;object-fit:cover;opacity:.75;transition:transform .8s}
+.vid{cursor:pointer}.vid video{width:100%;height:100%;object-fit:cover}
+.vid .snd{position:absolute;right:16px;bottom:16px;background:rgba(0,0,0,.55);color:#fff;font-size:13px;font-weight:600;letter-spacing:.06em;padding:8px 14px}
 .vid:hover img{transform:scale(1.03)}
 .vid i{position:absolute;left:50%;top:50%;width:78px;height:78px;margin:-39px 0 0 -39px;border-radius:50%;background:#fff}
 .vid i::after{content:"";position:absolute;left:31px;top:24px;border-left:22px solid #000;border-top:15px solid transparent;border-bottom:15px solid transparent}
