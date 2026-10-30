@@ -999,3 +999,9 @@ p,.lead,.who .txt p,.wwd .pane p,.pane p,.card-s p,.own p,.spot .q,.imt p,.pf p,
 .wwk .h2{color:#fff !important}
 .wwk .lg{display:block}
 .hero h1,.phero h1{max-width:760px}
+
+/* ---------- font kiểu mẫu (30/10): thân Be Vietnam Pro, tiêu đề Barlow Condensed đậm ---------- */
+:root{--font:'Be Vietnam Pro',ui-sans-serif,system-ui,sans-serif;--f-mono:'Be Vietnam Pro',ui-sans-serif,system-ui,sans-serif}
+h1,h2,h3,.h2,.h3{font-weight:700}
+.hero h1,.phero h1{font-family:var(--f-head);font-weight:800;text-transform:uppercase;letter-spacing:.005em;line-height:1.02}
+.pane h3,.imt h3,.spot h3,.pf h2{font-family:var(--f-head);font-weight:800}
