@@ -7,7 +7,7 @@
 <link rel="icon" href="img/logo.png">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,800&family=Barlow+Condensed:wght@500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/style.css?v=navy1">
+<link rel="stylesheet" href="assets/style.css?v=navy2">
 </head>
 <body data-page="tin-tuc">
 <main id="main">
@@ -27,7 +27,7 @@
 </section>
 </main>
 <script>document.write('<scr'+'ipt src="assets/data.js?v='+Math.floor(Date.now()/60000)+'"></scr'+'ipt>')</script>
-<script src="assets/app.js?v=navy1"></script>
+<script src="assets/app.js?v=navy2"></script>
 <script>
 const N=CT.news||[], I=ctImg, tags=['Tất cả',...new Set(N.map(n=>n.tag).filter(Boolean))];
 const card=n=>`<a class="card rv" href="tin-tuc-chi-tiet.html?id=${encodeURIComponent(n.id)}"><div class="ph"><img src="${I(n.img)}" alt="" loading="lazy"></div><div class="bd"><small>${n.tag||''} · ${n.date||''}</small><h3>${n.title}</h3>${n.summary?`<p>${n.summary}</p>`:''}</div></a>`;

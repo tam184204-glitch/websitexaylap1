@@ -30,8 +30,6 @@
       ['Câu chuyện hình thành', 'gioi-thieu.html#cau-chuyen', '2013 → 2026'],
       ['Thư ngỏ', 'gioi-thieu.html#thu-ngo', 'Lời từ Ban Giám đốc'],
       ['Sứ mệnh & giá trị cốt lõi', 'gioi-thieu.html#gia-tri', 'Tâm – Tín – Trí – Tốc – Nhân – Tinh'],
-      ['Cơ cấu tổ chức', 'gioi-thieu.html#to-chuc', 'Bộ máy điều hành'],
-      ['Đội ngũ quản lý', 'gioi-thieu.html#lanh-dao', 'Những người dẫn dắt công trường'],
       ['Kinh nghiệm', 'kinh-nghiem.html', 'Lĩnh vực chuyên sâu & hỏi đáp'],
     ], [['ttg-2', 'Thủ tướng thăm công trường', 'gioi-thieu.html#cau-chuyen'], ['new-pc', 'Cát Tường New – trụ sở', 'du-an-chi-tiet.html?id=cat-tuong-new']]],
     ['tin-tuc', 'Tin tức', 'tin-tuc.html'],
